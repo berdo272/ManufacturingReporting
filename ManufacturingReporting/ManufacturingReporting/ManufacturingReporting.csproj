@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{189C51C0-52EF-4564-BAA4-03A8E5CC183D}</ProjectGuid>
+    <ProjectGuid>{6F8FD013-49A0-430F-8112-691647076E89}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -201,7 +201,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\ConfigurationManufacturingDB.cs" />
+    <Compile Include="Migrations\ConfigurationApplicationDB.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Departments.cs" />
+    <Compile Include="Models\DownTimeEvent.cs" />
+    <Compile Include="Models\DownTimeTypes.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -295,9 +300,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>30413</DevelopmentServerPort>
+          <DevelopmentServerPort>32833</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:30413/</IISUrl>
+          <IISUrl>http://localhost:32833/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
